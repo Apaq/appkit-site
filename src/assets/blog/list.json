@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Appkite site launched",
+    "date": "August 28, 2019",
+    "url": "/blog/appkit-site-launched",
+    "author": "Michael Krog",
+    "description": "First version of Appkit is available. While still being in an early phase, appkit is looking to be a promising way to develop reusable apps via Webcomponents that integrates well into you UI.",
+    "img": "/assets/img/blog/posts/appkit-site-launched.jpg",
+    "filePath": "/assets/blog/appkit-site-launched.json"
+  }
+]
