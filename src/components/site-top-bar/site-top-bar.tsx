@@ -9,7 +9,7 @@ export class SiteTopBar {
   render() {
     return (
       <a href="https://blog.ionicframework.com/build-your-next-design-system-with-web-components/" target="_blank" rel="noopener">
-        On the blog: <u>Build your next Design System with Web Components</u>
+        On the blog: <u>Build your next Web Component as an app</u>
       </a>
     );
   }

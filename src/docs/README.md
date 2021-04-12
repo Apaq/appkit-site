@@ -1,7 +1,7 @@
 # Table of Contents
 
 * Introduction
-  * [Why Stencil](introduction/why-stencil.md)
+  * [Why Appkit](introduction/why-appkit.md)
   * [Goals and Objectives](introduction/goals-and-objectives.md)
   * [Browser Support](introduction/browser-support.md)
   * [Getting Started](introduction/getting-started.md)
@@ -78,6 +78,4 @@
   * [CLI API](core/cli-api.md)
   * [Dev Server API](core/dev-server-api.md)
 * Community
-  * [Stencil on Twitter](https://twitter.com/stenciljs)
-  * [Stencil on Slack](https://stencil-worldwide.herokuapp.com/)
-  * [Stencil on GitHub](https://github.com/ionic-team/stencil)
+  * [Appkit on GitHub](https://github.com/apaq/appkit)

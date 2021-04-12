@@ -20,7 +20,7 @@ export class SiteMenu implements ComponentInterface {
     if (Build.isBrowser) {
       docsearch({
         apiKey: '6399791d239c7e56a6b47685a64f8873',
-        indexName: 'stenciljs',
+        indexName: 'appkit',
         inputSelector: 'input[name="search"]',
         debug: false // Set debug to true if you want to inspect the dropdown
       });

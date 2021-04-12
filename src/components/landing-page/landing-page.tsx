@@ -223,7 +223,6 @@ export class LandingPage {
           </ResponsiveContainer>
         </section>
 
-        <newsletter-signup />
       </div>
     );
   }

@@ -88,7 +88,6 @@ export class AppRoot {
     return (
     <SiteProviderConsumer.Provider state={siteState}>
       <site-root>
-        <site-platform-bar productName='Stencil'/>
         <site-header />
         <main>
           <stencil-router scrollTopOffset={0}> 
@@ -114,8 +113,9 @@ export class AppRoot {
             <ResponsiveContainer>
               <div class="footer-col">
                 <app-icon name="logo"/>
-                <p>© 2020 StencilJS.  Released under MIT License</p>
+                <p>© 2021 AppkitJS.  Released under MIT License</p>
                 <ul class="external-links list--unstyled">
+                  {/* 
                   <li>
                     <a rel="noopener" class="link--external" target="_blank" href="https://twitter.com/stenciljs" aria-label="Twitter">
                       <app-icon name="twitter"></app-icon>
@@ -125,9 +125,9 @@ export class AppRoot {
                     <a rel="noopener" class="link--external" target="_blank" href="https://stencil-worldwide.herokuapp.com" aria-label="Slack">
                       <app-icon name="slack"></app-icon>
                     </a>
-                  </li>
+                  </li>*/}
                   <li>
-                    <a rel="noopener" class="link--external" target="_blank" href="https://github.com/ionic-team/stencil" aria-label="Github">
+                    <a rel="noopener" class="link--external" target="_blank" href="https://github.com/apaq/appkit" aria-label="Github">
                       <app-icon name="github"></app-icon>
                     </a>
                   </li>

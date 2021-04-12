@@ -57,7 +57,7 @@ export class SiteHeader {
     return (
       <ResponsiveContainer>
         <stencil-route class="burger-menu" url="/docs" component="app-burger" />    
-        <stencil-route-link url="/" class="logo-link" anchorTitle="Stencil logo">
+        <stencil-route-link url="/" class="logo-link" anchorTitle="Appkit logo">
           <app-icon name="logo"/>
         </stencil-route-link>
 
@@ -73,6 +73,7 @@ export class SiteHeader {
           </stencil-route-link>
 
           <ul class="external-links list--unstyled">
+            {/*
             <li>
               <a rel="noopener" class="link--external" target="_blank" href="https://twitter.com/stenciljs" aria-label="Twitter">
                 <app-icon name="twitter"></app-icon>
@@ -83,8 +84,9 @@ export class SiteHeader {
                 <app-icon name="slack"></app-icon>
               </a>
             </li>
+            */}
             <li>
-              <a rel="noopener" class="link--external" target="_blank" href="https://github.com/ionic-team/stencil" aria-label="Github">
+              <a rel="noopener" class="link--external" target="_blank" href="https://github.com/apaq/appkit" aria-label="Github">
                 <app-icon name="github"></app-icon>
               </a>
             </li>

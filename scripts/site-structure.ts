@@ -29,6 +29,7 @@ const renderer = new marked.Renderer();
   }
 
   await walkUpdateChildren(metadataList, SOURCE_FILE);
+  console.log(metadataList)
   await writeFile(DESTINATION_FILE, JSON.stringify(metadataList, null, 2), {
     encoding: 'utf8'
   });
@@ -39,6 +40,8 @@ async function walkUpdateChildren(itemList, sourcePath) {
     if (item.filePath && item.filePath.indexOf('//') === -1) {
       const fullPath = path.join(path.dirname(sourcePath), item.filePath);
       const url = await getMarkdownFileSitePath(fullPath);
+      console.log('url:', url)
+  
       const jsonPath = path.join(
         ASSETS_DIR,
         dirname(item.filePath),
@@ -66,6 +69,5 @@ async function getMarkdownFileSitePath(filePath) {
     return null;
   }
   const metadata: any = frontMatter(markdownContents);
-
   return (metadata && metadata.attributes ? metadata.attributes.url : null);
 }

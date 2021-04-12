@@ -3,9 +3,9 @@
     "text": "Introduction",
     "children": [
       {
-        "text": "Why Stencil",
-        "filePath": "/assets/docs/introduction/why-stencil.json",
-        "url": null
+        "text": "Why Appkit",
+        "filePath": "/assets/docs/introduction/why-appkit.json",
+        "url": "/docs/introduction"
       },
       {
         "text": "Goals and Objectives",
@@ -388,16 +388,8 @@
     "text": "Community",
     "children": [
       {
-        "text": "Stencil on Twitter",
-        "filePath": "https://twitter.com/stenciljs"
-      },
-      {
-        "text": "Stencil on Slack",
-        "filePath": "https://stencil-worldwide.herokuapp.com/"
-      },
-      {
-        "text": "Stencil on GitHub",
-        "filePath": "https://github.com/ionic-team/stencil"
+        "text": "Appkit on GitHub",
+        "filePath": "https://github.com/apaq/appkit"
       }
     ]
   }

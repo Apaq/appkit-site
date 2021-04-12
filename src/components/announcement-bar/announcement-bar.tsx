@@ -10,9 +10,9 @@ export class AnnouncementBar {
 
   render() {
     return ([
-      <stencil-route-link url="/blog/stencil-roadmap-fall-2019" class="announcement">
+      <stencil-route-link url="/blog/appkit-site-launched" class="announcement">
         <strong class="announcement__pill">Blog</strong>
-        Fall 2019 Stencil Roadmap
+        Appkit Site Launched
         <app-icon name="arrow-right"></app-icon>
       </stencil-route-link>
     ])
