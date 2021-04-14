@@ -28,7 +28,7 @@ export class LandingPage {
       <div>
         <ResponsiveContainer class="hero">
           <hgroup>
-            <h1>Apps for the Web. Finally! </h1>
+            <h1>Integrate Apps in Your Web Ui. Finally! </h1>
             <p>Appkit is a framework for building reusable Web Components as Apps. Easily break up your monolith UI and integrate reusable standards based Web Components instead.</p>
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">Get started</stencil-route-link>
             <stencil-route-link url="/docs/introduction" class="hero-button" anchorClass="btn-why-stencil">Why Appkit?</stencil-route-link>

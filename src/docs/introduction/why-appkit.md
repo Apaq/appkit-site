@@ -1,37 +1,32 @@
 ---
-title: Stencil - A Compiler for Web Components
-description: Stencil has a number of add-ons that you can use with the build process.
+title: AppKit - An App Framework for Web Components
+description: AppKit lays the groundwork for integrating web components as apps in your ui
 url: /docs/introduction
 contributors:
-  - jthoms1
+  - michaelkrog
 ---
 
-# Stencil: A Compiler for Web Components and High Performance Web Apps
+# AppKit: An App Framework Web Components
 
-Stencil is a compiler that generates Web Components (more specifically, Custom Elements) and builds high performance web apps. Stencil combines the best concepts of the most popular frameworks into a simple build-time tool.
+AppKit is a framework that defines a standard for communication between Web Components (more specifically, Custom Elements) and allows for deep integration in your Web UI. AppKit combines the best concepts of Mobile Apps with Web Components into a simple tiny framework-agnostic library.
 
-Stencil takes features such as
+AppKit takes features such as
 
-- Virtual DOM
-- Async rendering (inspired by React Fiber)
-- Reactive data-binding
-- TypeScript
-- JSX
-- Static Site Generation (SSG)
+- Content provision (inspired by Android)
+- App Extensions (inspired by iOS)
+- Sandboxing
+- App bundling
 
-and then generates standards-based Web Components and web apps with these features baked in.
+and then facilitates that for standards-based Web Components so you can build a rock solid Web UI consisting of many apps that works together.
 
-Since Stencil generates standards-compliant web components, they can work with many popular frameworks right out of the box, and can be used without a framework because they are just web components. Stencil also enables a number of key capabilities on top of Web Components, in particular, prerendering, and objects-as-properties (instead of just strings).
+AppKit is framework-agnostic and can work with many popular frameworks right out of the box - or without a framework if that is your preference. 
 
-Compared to using Custom Elements directly, Stencil provides extra APIs that makes writing fast components simpler. APIs like Virtual DOM, JSX, and async rendering make fast, powerful components easy to create, while still maintaining 100% compatibility with Web Components.
+Compared to using We Components, AppKit provides the layer you needs too facilitate a standardized communication between components and your UI in a simple manner. Allowing components to retrieve content via the builtin Content provision, makes it easy for 3rd party developers to work with data in your system without the need to know advanced internal details about your system.
 
-The developer experience is also tuned, and comes with live reload and a small dev server baked in to the compiler.
 
-But Stencil can also be used to build high performance web apps, offering advanced features such as Static Site Generation and powerful caching.
+## Why AppKit?
 
-## Why Stencil?
-
-Stencil was created by the [Ionic Framework](http://ionicframework.com/) team to help build faster, more capable components that worked across all major frameworks.
+Stencil was created by the [Apaq](http://ionicframework.com/) team to help build faster, more capable Web UI's that worked across all major frameworks. The need grew out of their development of [Previsto's](http://previsto.com/) user interface.
 
 While Ionic primarily targeted Cordova apps, the emergence of Progressive Web Apps as a rapidly growing target for web developers demanded a different approach to web app development performance. With Ionic's classic use of traditional frameworks and bundling techniques, the team was struggling to meet latency and code size demands for Progressive Web Apps that ran equally well on fast and slow networks, across a diversity of platforms and devices.
 
