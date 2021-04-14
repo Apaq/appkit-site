@@ -1,50 +1,50 @@
 ---
-title: Stencil Frequently Asked Questions
-description: Stencil is a developer-focused toolchain for building reusable, scalable component libraries, applications and design systems.
+title: ApKit Frequently Asked Questions
+description: AppKit is a developer-focused toolchain for building reusable, scalable component libraries, applications and design systems.
 url: /docs/faq
 contributors:
-  - adamdbradley
+  - michaelkrog
 ---
 
 # FAQ
 
 ## Introduction
 
-### What is Stencil?
+### What is AppKit?
 
 Stencil is a developer-focused toolchain for building reusable, scalable component libraries, applications and design systems. It provides a compiler that generates highly optimized Web Components, and combines the best concepts of the most popular frameworks into a simple build-time tool.
 
 Stencil focuses on building components with web standards. It’s used by developers and organizations around the world, and is [100% free and MIT open source](https://github.com/ionic-team/stencil/blob/master/LICENSE.md).
 
 
-### What does Stencil do?
+### What does AppKit do?
 
 Stencil helps developers and teams build and share custom components. Since Stencil generates standards-compliant Web Components, the components you build with Stencil will work with many popular frameworks right out of the box, and can even be used without a framework because they are just Web Components. Stencil also enables a number of key capabilities on top of Web Components, in particular, prerendering, and objects-as-properties (instead of just strings).
 
 
-### Who is Stencil for?
+### Who is AppKit for?
 
 Stencil is for developers and teams that want to build custom component libraries and design systems that can be shared across teams, frameworks and large organizations.
 
 Stencil can also be used by designers who want their original design visions delivered consistently, with high fidelity, to all users.
 
 
-### Who makes Stencil?
+### Who makes AppKit?
 
 Stencil is an open source project started by the [Ionic core team](https://ionicframework.com/), with contributions also coming from the community.
 
 
-### Why was Stencil created?
+### Why was AppKit created?
 
 Stencil was created by the Ionic Framework team to make our own component library faster, smaller, and compatible with all major frameworks. Web Components offered a solution by pushing more work to the browser for better performance, and targeting a standards-based component model that all frameworks could use.
 
 
-### Who uses Stencil?
+### Who uses AppKit?
 
 Stencil was initially developed for Ionic Framework and has been a very successful Web Component-based design system/UI framework. Web Components are now in thousands of app store apps, and nearly 4 million new Ionic Framework projects are being created every year.
 
 
-### How does Stencil compare to traditional frameworks?
+### How does AppKit compare to traditional frameworks?
 
 The Web Component ecosystem has a diverse set of players, each with a different long-term vision for what Web Components can and should do.
 
@@ -55,19 +55,19 @@ With Stencil, our vision is somewhere in the middle. In the long term, we see ap
 At the same time, we believe an indispensible feature for Web Components is solving those component distribution and design system problems. We also believe, however, that 90% of the market doesn’t have those problems to begin with, so the current debate about the merits of Web Components is somewhat unproductive.
 
 
-### Why is Stencil considered framework agnostic?
+### Why is AppKit considered framework agnostic?
 
 Perhaps the most appealing benefit of Web Components is that they give your development teams the flexibility to choose the underlying tools and frameworks - and versions of those frameworks - and tools that they prefer. As pointed out earlier, one of the great challenges of implementing a universal design system is getting all of your development teams to standardize on just one set of technologies. With Web Components, each team can use what works best for them, giving them complete freedom to use the tools they love—today and tomorrow.
 
 
-## What does Stencil provide?
+## What does AppKit provide?
 
 ### Does Stencil have a component library?
 
 The most widely used Stencil component library is the Ionic Framework, however, Stencil itself is only a toolchain and does not provide its own component library. We encourage you to first review Ionic components if you are building an application.
 
 
-### Is Stencil a framework?
+### Is AppKit a framework?
 
 Stencil purposely does not strive to act as a stand-alone framework, but rather a tool which allows developers to scale framework-agnostic components across many projects, teams and large organizations. One of Stencil’s superpowers is its flexibility: its components could be used stand-alone, or within traditional frameworks.
 
@@ -81,14 +81,14 @@ Yes, Stencil provides a rich set of APIs for unit and End-to-end tests. [Learn m
 ## Technology
 
 
-### Why does Stencil use web components?
+### Why does AppKit use web components?
 
 By using a consistent set of web standards, Web Components do not depend on a specific framework runtime to execute. As frameworks change their APIs, Web Components do not, allowing for the original source to continue to work natively in a browser.
 
 After all, as much as we love the hot frameworks of today, who knows what tomorrow will bring? By choosing Web Components, you help to insulate yourself from the threat of tech churn.
 
 
-### How is Stencil able to optimize component file size and startup?
+### How is AppKit able to optimize component file size and startup?
 
 Traditional frameworks provide a runtime API, and developers can pick and choose which APIs to use per component. However, this means every feature needs to be available to every component, just in case the component may or may not use the API.
 
@@ -127,31 +127,28 @@ Part of the Web Component spec is to extend HTMLElement, however, Stencil does n
 Stencil was originally built for Ionic, and in our experience we’ve found TypeScript to be a valuable tool for maintaining a large codebase across multiple teams.
 
 
-### What dependencies does the Stencil runtime have?
+### What dependencies does the AppKit have?
 
-None. The code generated by Stencil does not rely on Stencil, but rather it generates highly-optimized, framework-free, stand-alone code which runs natively in the browser.
-
-
-### What dependencies does the Stencil compiler have?
-
-TypeScript. That’s it.
+None. 
 
 
-### Can data be passed to Web Components?
+### Can data be passed to Apps?
 
 Just like any other DOM element in a webpage, any data in the form of arrays, objects, strings and numbers can be passed to element properties. Stencil is designed from the ground up to ensure this capability stays unlocked for application developers.
 
 One misconception that falsely claims only strings can be passed to custom elements comes from React’s version of VDom. Out of the box, React can only pass strings and numbers to components and it cannot listen to custom events. With Stencil, the components appear as though they are React components and all properties get passed correctly including functions, objects, and arrays. The bindings also account for custom events by creating a prop called “on<EventName>”. These allow React developers to interact with the Web Components as though they are React components.
 
+### Can the Apps retrieve data in a standardized manner?
 
-### What technology is Stencil built with?
 
-The Stencil compiler is built with TypeScript and is [distributed on npm](https://www.npmjs.com/package/@stencil/core). Its distribution includes types, making it easier for developers to use Stencil APIs.
+### What technology is AppKit built with?
+
+The AppKit library is built with TypeScript and is [distributed on npm](https://www.npmjs.com/package/@appkit/core). Its distribution includes types, making it easier for developers to use AppKit APIs.
 
 
 ## Capabilities
 
-### Where can Stencil components be used?
+### Where can Apps built with AppKit be used?
 
 One great advantage of using Web Components is that your component library will work across all projects, not just desktop web apps.
 
@@ -184,44 +181,31 @@ Web Components by themselves weren't enough to provide a quality development exp
 Compared to using Web Components directly, Stencil provides extra APIs that make writing fast components simpler. APIs like Virtual DOM, JSX, and async rendering make fast, powerful components easy to create, while still maintaining 100% compatibility with Web Components.
 
 
-### What browsers can support Stencil components?
+### What browsers can support AppKit?
 
-Stencil works on modern browsers and Internet Explorer 11.
+AppKit works on all major modern browsers.
 
 [Learn more about browser support](/docs/browser-support).
 
 
-### What polyfills does Stencil provide?
-
-In order for Stencil to work on Internet Explorer 11 and above, a few polyfills are required. Luckily, Stencil’s architecture allows for modern browsers to not have to download any polyfills.
-
-
-Additionally, modern browsers are able to use the latest features natively, without having to transpile down to ES5 (and making the code even easier to debug). For example, all ES 2017 features such as async/await run natively.
-
-
-## Stencil Project
-
-### Where can I get support?
-
-If this is your first time building a design system, or you’re new to Stencil, [get in touch](https://ionicframework.com/sales?product_of_interest=Design%20Systems) with one of our Solutions Engineers for a consultation on how to meet your goals and get the most out of the platform.
-
+## AppKit  Project
 
 ### How do I get involved?
 
-Stencil is an open source project, and we encourage you to contribute. You can start by creating issues on GitHub, submitting feature requests, and helping to replicate bugs. If you’re interested in contributing, please see our [Contributor Guide](https://github.com/ionic-team/ionic/blob/master/.github/CONTRIBUTING.md) and check out our [issue tracker](https://github.com/ionic-team/stencil/issues).
+AppKit is an open source project, and we encourage you to contribute. You can start by creating issues on GitHub, submitting feature requests, and helping to replicate bugs. If you’re interested in contributing, please see our [Contributor Guide](https://github.com/apaq/appkit/blob/master/.github/CONTRIBUTING.md) and check out our [issue tracker](https://github.com/apaq/appkit/issues).
 
 
-### Is Stencil open source?
+### Is AppKit open source?
 
-Yes, Stencil is open source and its source code can be [found on GitHub](https://github.com/ionic-team/stencil). Contributions are welcomed from the community.
+Yes, AppKit is open source and its source code can be [found on GitHub](https://github.com/apaq/appkit). Contributions are welcomed from the community.
 
 
 ### Which software license does Stencil use?
 
-Stencil’s software [license is MIT](https://github.com/ionic-team/stencil/blob/master/LICENSE).
+Apaq’s software [license is MIT](https://github.com/apaq/appkit/blob/master/LICENSE).
 
 
-### Who works on Stencil?
+### Who works on AppKit?
 
-The majority of the development is done by engineers at [Ionic](https://github.com/ionic-team/ionic). If you’re excited about Stencil, we encourage you to join the community and contribute! Best place to start is on the [Stencil Slack Channel](https://stencil-worldwide.herokuapp.com/).
+The majority of the development is done by engineers at [Apaq](https://github.com/apaq). If you’re excited about AppKit, we encourage you to join the community and contribute! 
 

@@ -28,8 +28,8 @@ export class LandingPage {
       <div>
         <ResponsiveContainer class="hero">
           <hgroup>
-            <h1>Integrate Apps in Your Web Ui. Finally! </h1>
-            <p>Appkit is a framework for building reusable Web Components as Apps. Easily break up your monolith UI and integrate reusable standards based Web Components instead.</p>
+            <h1>Let Web Components behave like Apps. Finally! </h1>
+            <p>Appkit is a library for building reusable Web Components as Apps. Easily break up your monolith UI and integrate reusable standards based Web Components instead.</p>
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">Get started</stencil-route-link>
             <stencil-route-link url="/docs/introduction" class="hero-button" anchorClass="btn-why-stencil">Why Appkit?</stencil-route-link>
           </hgroup>
@@ -90,7 +90,7 @@ export class LandingPage {
                 <li><app-icon name="checkmark"/> Web Component-based</li>
                 <li><app-icon name="checkmark"/> Any framework</li>
                 <li><app-icon name="checkmark"/> TypeScript support</li>
-                <li><app-icon name="checkmark"/> Security baked in</li>
+                <li><app-icon name="checkmark"/> Sandboxing baked in</li>
                 <li><app-icon name="checkmark"/> Dependency free</li>
                 <li><app-icon name="checkmark"/> UI-independent</li>
               </ul>
@@ -117,7 +117,7 @@ export class LandingPage {
                   <path d="M16 23C19.866 23 23 19.866 23 16C23 12.134 19.866 9 16 9C12.134 9 9 12.134 9 16C9 19.866 12.134 23 16 23Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 <h3>Simple</h3>
-                <p>With a tiny API layer, and zero configuration, Appkit makes it a sweet deal to create integratable and shareable apps for the web.</p>
+                <p>With a tiny Api layer, and zero configuration, Appkit makes it a sweet deal to create integratable and shareable apps for the web.</p>
               </li>
               <li class="feature-list__item">
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,7 +163,7 @@ export class LandingPage {
                 <h2><strong>Build reusable apps</strong> for all of your UI's using any framework.</h2>
               </hgroup>
               <div>
-                <p>Appkit is build on Web Components standard, so yout apps work with any major framework or no framework at all.</p>
+                <p>Appkit is built on Web Components standard, so yout apps work with any major framework or no framework at all.</p>
                 <p>Learn how to build apps with:</p>
                 <ul class="card-links list--unstyled">
                   <li>
@@ -192,7 +192,7 @@ export class LandingPage {
                   </li>
                   <li>
                     <stencil-route-link class="card-links__item" url="/docs/vanilla">
-                      <i class="fw-icon fw-icon--ember"></i>
+                      <i class="fw-icon fw-icon--js"></i>
                       Vanilla Js
                     </stencil-route-link>
                   </li>

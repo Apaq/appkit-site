@@ -1,14 +1,14 @@
 ---
-title: AppKit - An App Framework for Web Components
+title: AppKit - Makes Web Components integrate like Apps
 description: AppKit lays the groundwork for integrating web components as apps in your ui
 url: /docs/introduction
 contributors:
   - michaelkrog
 ---
 
-# AppKit: An App Framework Web Components
+# AppKit: Makes Web Components integrate like Apps
 
-AppKit is a framework that defines a standard for communication between Web Components (more specifically, Custom Elements) and allows for deep integration in your Web UI. AppKit combines the best concepts of Mobile Apps with Web Components into a simple tiny framework-agnostic library.
+AppKit is a library that defines a standard for communication between Web Components (more specifically, Custom Elements) and allows for deep integration in your Web UI. AppKit combines the best concepts of Mobile Apps with Web Components into a simple tiny framework-agnostic library.
 
 AppKit takes features such as
 
@@ -21,17 +21,17 @@ and then facilitates that for standards-based Web Components so you can build a 
 
 AppKit is framework-agnostic and can work with many popular frameworks right out of the box - or without a framework if that is your preference. 
 
-Compared to using We Components, AppKit provides the layer you needs too facilitate a standardized communication between components and your UI in a simple manner. Allowing components to retrieve content via the builtin Content provision, makes it easy for 3rd party developers to work with data in your system without the need to know advanced internal details about your system.
+Compared to using plain Web Components, AppKit provides the layer you needs to facilitate a standardized communication between components and your UI in a simple manner. Allowing components to retrieve content via the builtin Content provision, makes it easy for 3rd party developers to work with data in your system without the need to know advanced internal details about your system.
 
 
 ## Why AppKit?
 
-Stencil was created by the [Apaq](http://ionicframework.com/) team to help build faster, more capable Web UI's that worked across all major frameworks. The need grew out of their development of [Previsto's](http://previsto.com/) user interface.
+AppKit was created by the [Previsto](http://previsto.com/) team to help build faster, more capable Web UI's that worked across all major frameworks. The need grew out of their development of [Previsto's](http://previsto.com/) user interface.
 
-While Ionic primarily targeted Cordova apps, the emergence of Progressive Web Apps as a rapidly growing target for web developers demanded a different approach to web app development performance. With Ionic's classic use of traditional frameworks and bundling techniques, the team was struggling to meet latency and code size demands for Progressive Web Apps that ran equally well on fast and slow networks, across a diversity of platforms and devices.
+While Previsto originally targeted a small user base with a simple UI, the need grew for more and more functionality and support for apps delivered by 3rd party developers and it demanded a different approach to our (monolith) UI. With Previsto's approach to build everything with a specific framework and in one bundle, the team struggled to keep a lean codebase, support lazy loading of UI components while also letting the user install custom apps in the UI to fit their needs.
 
-Additionally, framework fragmentation had created a web development interoperability nightmare, where components built for one framework didn't work with another framework.
+Additionally, the vendor lock-in to a single framework made it difficult to get 3rd party developers on board for developing apps for the Previsto UI. The team needed a solution that would let any developer create apps for Previsto using any framework they'd like.
 
-Web Components offered a solution to both problems, pushing more work to the browser for better performance, and targeting a standards-based component model that all frameworks could use.
+Web Components offered a solution to the problem by targeting a standards-based component model that all frameworks could use.
 
-However, Web Components by themselves weren't enough. Building fast web apps required innovations that were previously locked up inside of traditional web frameworks. Stencil was built to pull these features out of traditional frameworks and bring them to the fast emerging Web Component standard.
+However, Web Components by themselves weren't enough. While Web Components by themselves are standards-based, the communication with them and the ability for them to retreive data is not. AppKit was built to be the layer that lets your Web Components behave like Apps that communicate with each other, extract content via your UI and lets you integrate them deeply within your UI.

@@ -1,13 +1,12 @@
 ---
-title: My First Component
-description: My First Component
-url: /docs/my-first-component
+title: My First Integration
+description: My First Integration
+url: /docs/my-first-integration
 contributors:
-  - jthoms1
-  - simonhaenisch
+  - michaelkrog
 ---
 
-# My First Component
+# My First Integration
 
 Stencil components are created by adding a new file with a `.tsx` extension, such as `my-first-component.tsx`, and placing them in the `src/components` directory.
 The `.tsx` extension is required since Stencil components are built using [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) and TypeScript.

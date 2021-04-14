@@ -68,9 +68,9 @@ const SITE_STRUCTURE_FILE = './src/assets/docs-structure.json';
       };
 
       if (typeof data.title !== 'string') {
-        data.title = 'Stencil';
+        data.title = 'AppKit';
       } else {
-        data.title = data.title.trim() + ' - Stencil';
+        data.title = data.title.trim() + ' - AppKit';
       }
 
       await writeFile(destinationFileName, JSON.stringify(data), {

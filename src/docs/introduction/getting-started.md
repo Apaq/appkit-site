@@ -3,37 +3,17 @@ title: Getting Started
 description: Getting Started
 url: /docs/getting-started
 contributors:
-  - jthoms1
+  - michaelkrog
 ---
 
 # Getting Started
 
-## Starting a new project
+## Preparing for development
 
-Stencil requires a recent LTS version of [NodeJS](https://nodejs.org/) and npm. Make sure you've installed and/or updated Node before continuing.
+Appkit requires a recent LTS version of [NodeJS](https://nodejs.org/) and npm. Make sure you've installed and/or updated Node before continuing.
 
 > Note that you will need to use npm 6 or higher.
 
-```bash
- npm init stencil
-```
+To make the introduction as simple as possible, this guide will explain how to prepare the development of an App using Vanilla JS (no framework like Angular, React, Vue etc.) as well as a simple UI, also using Vanilla JS, in which you can integrate and communicate with your App.
 
-Stencil can be used to create standalone components, or entire apps. After running init
-you will be provided with a prompt so that you can choose the type of project to start.
-
-```bash
-? Pick a starter › - Use arrow-keys. Return to submit.
-
-❯  ionic-pwa     Everything you need to build fast, production ready PWAs
-   app           Minimal starter for building a Stencil app or website
-   component     Collection of web components that can be used anywhere
-```
-
-
-## Updating Stencil
-
-To get the latest version of @stencil/core you can run:
-
-```bash
-npm install @stencil/core@latest --save-exact
-```
+Creating the App will be explained in the <stencil-route-link url="/docs/my-first-app">My First App</stencil-route-link> page and the actual integration of it will be explained in <stencil-route-link url="/docs/integrating-my-app">Integrating My App</stencil-route-link> page.

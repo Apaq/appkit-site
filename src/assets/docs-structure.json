@@ -23,24 +23,19 @@
         "url": "/docs/getting-started"
       },
       {
-        "text": "My First Component",
-        "filePath": "/assets/docs/introduction/my-first-component.json",
-        "url": "/docs/my-first-component"
+        "text": "My First App",
+        "filePath": "/assets/docs/introduction/my-first-app.json",
+        "url": "/docs/my-first-app"
+      },
+      {
+        "text": "My First Integration",
+        "filePath": "/assets/docs/introduction/my-first-integration.json",
+        "url": "/docs/my-first-integration"
       },
       {
         "text": "FAQ",
         "filePath": "/assets/docs/introduction/faq.json",
         "url": "/docs/faq"
-      },
-      {
-        "text": "What is a Design System?",
-        "filePath": "/assets/docs/design-systems/what-is-design-system.json",
-        "url": "/docs/what-is-design-system"
-      },
-      {
-        "text": "Stencil for Design Systems",
-        "filePath": "/assets/docs/design-systems/stencil-for-design-systems.json",
-        "url": "/docs/stencil-for-design-systems"
       }
     ]
   },

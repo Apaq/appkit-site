@@ -5,10 +5,9 @@
   * [Goals and Objectives](introduction/goals-and-objectives.md)
   * [Browser Support](introduction/browser-support.md)
   * [Getting Started](introduction/getting-started.md)
-  * [My First Component](introduction/my-first-component.md)
+  * [My First App](introduction/my-first-app.md)
+  * [My First Integration](introduction/my-first-integration.md)
   * [FAQ](introduction/faq.md)
-  * [What is a Design System?](design-systems/what-is-design-system.md)
-  * [Stencil for Design Systems](design-systems/stencil-for-design-systems.md)
 * Components
   * [API](components/api.md)
   * [Component](components/component.md)
