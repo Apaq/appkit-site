@@ -33,7 +33,7 @@ landing-page .hero hgroup p {
 }
 
 .btn-get-started,
-.btn-why-stencil {
+.btn-why-appkit {
   transition: all ease 0.15s;
   text-decoration: none;
   color: inherit;
@@ -59,13 +59,13 @@ landing-page .hero hgroup p {
 }
 
 .btn-get-started:hover,
-.btn-why-stencil:hover {
+.btn-why-appkit:hover {
   text-decoration: none;
   transform: translateY(-1px);
   box-shadow: 0px 4px 8px rgba(2,8,20,0.1),0px 2px 4px rgba(2,8,20,0.08);
 }
 
-.btn-why-stencil {
+.btn-why-appkit {
   background: white;
   color: rgb(76, 72, 255);
 }

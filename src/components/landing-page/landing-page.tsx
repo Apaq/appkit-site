@@ -13,11 +13,11 @@ export class LandingPage {
   @State() copiedState = 0;
 
   constructor() {
-    document.title = `Stencil`;
+    document.title = `AppKit`;
   }
 
   copyCommand = () => {
-    copy('npm init stencil');
+    copy('npm i @appkit/core');
     this.copiedState = Math.min(COPY_STATES.length - 1, this.copiedState + 1);
     clearTimeout(this.timer);
     this.timer = setTimeout(() => this.copiedState = 0, 1500);
@@ -28,10 +28,10 @@ export class LandingPage {
       <div>
         <ResponsiveContainer class="hero">
           <hgroup>
-            <h1>Let Web Components behave like Apps. Finally! </h1>
-            <p>Appkit is a library for building reusable Web Components as Apps. Easily break up your monolith UI and integrate reusable standards based Web Components instead.</p>
+            <h1>Build. Bundle. Benefit.</h1>
+            <p>Appkit is a library for building reusable Web Components as Apps you can embed. Easily break up your monolith UI and integrate reusable standards based Web Components instead.</p>
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">Get started</stencil-route-link>
-            <stencil-route-link url="/docs/introduction" class="hero-button" anchorClass="btn-why-stencil">Why Appkit?</stencil-route-link>
+            <stencil-route-link url="/docs/introduction" class="hero-button" anchorClass="btn-why-appkit">Why Appkit?</stencil-route-link>
           </hgroup>
           <svg class="landing-page__bg" width="661" height="573" viewBox="0 0 661 573" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.5" d="M301.972 460.59H459.711L374.445 553H217.555L301.972 460.59Z" fill="#EFF1FF"/>
@@ -50,6 +50,7 @@ export class LandingPage {
           </svg>
         </ResponsiveContainer>
 
+        { /* 
         <div class="companies">
           <ResponsiveContainer>
             <h3>Powering apps at</h3>
@@ -78,6 +79,7 @@ export class LandingPage {
             </ul>
           </ResponsiveContainer>
         </div>
+        */}
 
         <section class="overview">
           <ResponsiveContainer>
@@ -229,7 +231,7 @@ export class LandingPage {
 }
 
 const COPY_STATES = [
-  '$ npm init @apaq/appkit',
+  '$ npm i @appkit/core',
   'copied!',
   'double copied!',
   'triple copied!',

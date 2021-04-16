@@ -14,6 +14,6 @@ Appkit requires a recent LTS version of [NodeJS](https://nodejs.org/) and npm. M
 
 > Note that you will need to use npm 6 or higher.
 
-To make the introduction as simple as possible, this guide will explain how to prepare the development of an App using Vanilla JS (no framework like Angular, React, Vue etc.) as well as a simple UI, also using Vanilla JS, in which you can integrate and communicate with your App.
+For the sake of simplicity the guides will make use of [Stencil](https://stenciljs.com) for setting up projects but as already mentioned you can use AppKit with any library, framework or even with Vanilla JS.
 
-Creating the App will be explained in the <stencil-route-link url="/docs/my-first-app">My First App</stencil-route-link> page and the actual integration of it will be explained in <stencil-route-link url="/docs/integrating-my-app">Integrating My App</stencil-route-link> page.
+Creating the App will be explained in the <stencil-route-link url="/docs/my-first-app">My First App</stencil-route-link> page and the actual integration of it will be explained in <stencil-route-link url="/docs/integrating-my-app">Integrating My App</stencil-route-link> page. 

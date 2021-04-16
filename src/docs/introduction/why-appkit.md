@@ -13,7 +13,7 @@ AppKit is a library that defines a standard for communication between Web Compon
 AppKit takes features such as
 
 - Content provision (inspired by Android)
-- App Extensions (inspired by iOS)
+- App Extensions (inspired by Mac OS)
 - Sandboxing
 - App bundling
 
@@ -21,7 +21,7 @@ and then facilitates that for standards-based Web Components so you can build a 
 
 AppKit is framework-agnostic and can work with many popular frameworks right out of the box - or without a framework if that is your preference. 
 
-Compared to using plain Web Components, AppKit provides the layer you needs to facilitate a standardized communication between components and your UI in a simple manner. Allowing components to retrieve content via the builtin Content provision, makes it easy for 3rd party developers to work with data in your system without the need to know advanced internal details about your system.
+Compared to using plain Web Components, AppKit provides the layer you need to facilitate a standardized communication between components and your UI in a simple manner. Allowing components to retrieve content via the builtin Content provision, makes it easy for 3rd party developers to work with data in your system without the need to know advanced internal details about your system.
 
 
 ## Why AppKit?
