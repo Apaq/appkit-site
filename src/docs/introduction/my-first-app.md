@@ -40,17 +40,17 @@ cd my-first-app
 npm install
 ```
 
-## Install AppKit
+## Install Appkit
 
-Next step is to install AppKit which is very easy using npm. You simply run the following command.
+Next step is to install Appkit which is very easy using npm. You simply run the following command.
 
 ```bash
 npm i @appkit/core
 ```
 
-## Use AppKit
+## Use Appkit
 
-Let's use AppKit in the component that was already created when the project was initialized. In 
+Let's use Appkit in the component that was already created when the project was initialized. In 
 `src/components` you will see a folder called `my-component`. Open the file `my-component.tsx`. Here 
 you have a very simple Stencil component written with [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) and TypeScript
 and which can be compiled to a Web Component using Stencil. Follow along and we'll show you how later on.
@@ -72,7 +72,7 @@ export class MyComponent {
 ```
 
 Lets us do 2 things now:
-1. Import AppKit
+1. Import Appkit
 2. Register your component as an App.
 
 ```tsx
@@ -104,10 +104,10 @@ export class MyComponent {
 Let's dive in.
 
 The first new thing we see is the `import { Context, IData } from '@appkit/core'; `. 
-This ensures that we can use the interface type for `Context` from AppKit.
+This ensures that we can use the interface type for `Context` from Appkit.
 
 Below that, we `declare` a function, namely `createAppContext(el: HTMLElement): Context;`
-This function will always be avaiable when your component is executed in an AppKit environment.
+This function will always be avaiable when your component is executed in an Appkit environment.
 
 Next thing is that we declare `context: Context;` to be able to hold the context we are going to create.
 We are not really gonna use this context in this guide, but later on when you want to communicate with 

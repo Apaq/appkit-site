@@ -13,7 +13,7 @@ export class LandingPage {
   @State() copiedState = 0;
 
   constructor() {
-    document.title = `AppKit`;
+    document.title = `Appkit`;
   }
 
   copyCommand = () => {
@@ -29,7 +29,11 @@ export class LandingPage {
         <ResponsiveContainer class="hero">
           <hgroup>
             <h1>Build. Bundle. Benefit.</h1>
-            <p>Appkit is a library for building reusable Web Components as Apps you can embed. Easily break up your monolith UI and integrate reusable standards based Web Components instead.</p>
+            <p>
+              Appkit is a library for building reusable Web Components as Apps you can 
+              embed. Easily break up your monolith UI and integrate reusable standards 
+              based Web Components instead.
+              </p>
             <stencil-route-link url="/docs/getting-started" class="hero-button" anchorClass="btn-get-started">Get started</stencil-route-link>
             <stencil-route-link url="/docs/introduction" class="hero-button" anchorClass="btn-why-appkit">Why Appkit?</stencil-route-link>
           </hgroup>
@@ -151,7 +155,7 @@ export class LandingPage {
                   <li><app-icon name="checkmark"/>Appkit ensures deep and secure integration for Web Components</li>
                   <li><app-icon name="checkmark"/>Build apps that works across teams and projects</li>
                 </ul>
-                <p>Interested in learning more about building apps with AppKit?</p>
+                <p>Interested in learning more about building apps with Appkit?</p>
                 <stencil-route-link anchorClass="btn btn--tertiary btn--small" url="/docs/stencil-for-design-systems">Show me more</stencil-route-link>
               </div>
             </div>
@@ -193,7 +197,7 @@ export class LandingPage {
                     </stencil-route-link>
                   </li>
                   <li>
-                    <stencil-route-link class="card-links__item" url="/docs/vanilla">
+                    <stencil-route-link class="card-links__item" url="/docs/vanillajs">
                       <i class="fw-icon fw-icon--js"></i>
                       Vanilla Js
                     </stencil-route-link>

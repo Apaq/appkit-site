@@ -68,9 +68,9 @@ const SITE_STRUCTURE_FILE = './src/assets/docs-structure.json';
       };
 
       if (typeof data.title !== 'string') {
-        data.title = 'AppKit';
+        data.title = 'Appkit';
       } else {
-        data.title = data.title.trim() + ' - AppKit';
+        data.title = data.title.trim() + ' - Appkit';
       }
 
       await writeFile(destinationFileName, JSON.stringify(data), {

@@ -64,7 +64,7 @@ const BLOG_LIST_FILE = './src/assets/blog/list.json';
         hypertext: convertHtmlToHypertextData(htmlContents)
       };
 
-      data.title = `AppKit Blog - ${data.title.trim()}`;
+      data.title = `Appkit Blog - ${data.title.trim()}`;
 
       await writeFile(destinationFileName, JSON.stringify(data), {
         encoding: 'utf8'

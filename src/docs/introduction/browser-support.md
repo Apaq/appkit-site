@@ -1,6 +1,6 @@
 ---
-title: AppKit Browser Support
-description: Out-of-the-box browser support provided by AppKit.
+title: Appkit Browser Support
+description: Out-of-the-box browser support provided by Appkit.
 url: /docs/browser-support
 contributors:
   - michaelkrog
@@ -8,7 +8,7 @@ contributors:
 
 # Browser Support
 
-AppKit support all major desktop and mobile browsers.
+Appkit support all major desktop and mobile browsers.
 
 <div class="bs-chart">
   <div class="bs-chart__group">
@@ -36,7 +36,7 @@ AppKit support all major desktop and mobile browsers.
   </div>
 </div>
 
-Bear in mind that AppKit is based on Web Components, a set of standardized browser APIs centered around the Custom Elements v1 spec, a cross-browser way to define and create essentially new HTML tags, and which is the successor to the now-defunct v0 spec.
+Bear in mind that Appkit is based on Web Components, a set of standardized browser APIs centered around the Custom Elements v1 spec, a cross-browser way to define and create essentially new HTML tags, and which is the successor to the now-defunct v0 spec.
 
 Custom Elements are natively supported in Chrome, Firefox, Safari (including iOS)! and Edge.
 
